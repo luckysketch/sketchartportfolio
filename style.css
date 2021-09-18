@@ -1,0 +1,259 @@
+html{scroll-behavior: smooth;}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background: black;
+    width: 100vw;
+    height: 15vh;
+    position: relative;
+}
+.navbar .logo{
+    position:absolute;
+    
+    height: fit-content;
+    width:250px;
+}
+.menu{
+    position: absolute;
+    right: 0%;
+    top:3.5vh;
+    margin-right: 20px;
+    color: chartreuse;
+    transform: translateY(-0%);
+    width: 20px;
+    height: 10vw;
+
+}
+.menu #dot{
+    margin: .5vh;
+    background: white;
+   float: right;
+    width: 1.5vh;
+    height: 1.5vh;
+    border:1px solid white;
+    border-radius: 50%;
+
+
+}
+#menubar{
+    position: absolute;
+    top:0%;
+    right: 5%;
+    border: 2px solid white;
+   border-radius: 10px;
+    display:none;
+}
+
+#menubar ul{
+   list-style-type: disc;
+}
+#menubar ul li{
+    list-style: disc;
+    display: block;
+    margin: 10px;
+    font-size:20px;
+    font-family:  'Pacifico', cursive;
+    color: white;    
+}
+#menubar ul li:hover{
+    background: rgb(141, 129, 129);
+}
+.banner{
+    width: 100vw;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/gift_bgpic.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.content{
+    position: absolute;
+    width: 80vw;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    
+}
+.content p{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+}
+.content h1{
+    font-style: bold;
+    font-weight: 700;
+   /* font-family: "Sofia", sans-serif;*/
+    font-family: 'Pacifico', cursive;
+}
+.content #highlight{
+    color: red;
+    font-weight: 900;
+    font-family:'Pacifico', cursive; ;
+}
+.content #highlight1{
+    color: orange;
+}
+.downline{
+    width: auto;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    transform: translateY(-100%);
+    margin-right: 10px;
+    padding-bottom: 4px;
+    color: #fff;
+}
+.insta{
+    width: fit-content;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    top: 100%;
+    left: 0%;
+    transform: translateY(-100%);
+    margin-left: 4px;
+    padding-bottom: 4px;
+}
+.insta .insta1{
+    float: right;
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 4px;
+}
+.insta .insta1 .insta11{
+    height: 15px;
+    width: 15px;
+    border: 2px solid white;
+    border-radius: 20%; 
+    position: relative;
+}
+.insta .insta1 .insta12{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:2px solid white;
+    border-radius: 50%;
+    
+}
+
+/*gallary section*/
+.artwork{
+    
+   position: relative;
+    width: 100vw;
+    height: fit-content;  
+}
+.title{
+    margin-top: 2vh;
+   width: 100%;
+    font-size: 4vh;
+    font-weight: 800;
+    font-family: 'Permanent Marker', cursive;
+}
+.title11{
+    width: 100%;
+    font-size: 2vh;
+    font-weight: 400;
+    color: red;
+    font-family: sans-serif;
+}
+.artwork .img_container{
+    width: 96vw;
+    padding: 2vw;
+    height: 144vw;
+   
+}
+.artwork .img_container #img{
+    padding: 2vw;
+    width: 44vw;
+    height:fit-content;
+    float: left;
+    
+}
+.artwork .img_container #img img{
+    border-image: 2px solid black;
+    border-radius: 10%;
+}
+.artwork .more{
+    font-size: 3vh;
+    padding: 1vh;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid blue;
+    font-weight: 700;
+    color: blue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.artist{
+    padding-top: 20px;
+    width: 100vw;
+    background: black;
+    color: white;
+    height: fit-content;
+}
+
+.artist img{
+    margin-top: 10px;
+    border-image: 2px solid black;
+    border-radius: 50%;
+   margin: 10px;
+}
+.artist .self_disc{
+   
+    width: fit-content;
+    height: fit-content;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    color: white;
+    font-size: 3vh;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.order{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100vw;
+}
+.order ul{
+    margin-bottom: 20px;
+    margin-left: 10vw;
+    font-size: 3vh;
+    font-weight: 700;
+    list-style: decimal;
+}
+.order p{margin-left: 10px;margin-top: 20px;}
+
+.order .content{margin-top: 20px;}
+.order .contact22{
+    margin-left: 5vw;
+    width: 95vw;
+    font-size: 3vh;
+    font-weight: 700;
+}
+.prize_list{
+    padding-top: 20px;
+    width: 100vw;
+    background: black;
+    color: white;
+    padding-bottom: 20px;
+}
+.prize_list p{margin-left: 10px;margin-top: 20px;}
+.prize_list ul{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10vw;
+    font-size: 3vh;
+    font-weight: 500;
+    list-style: decimal;
+}
