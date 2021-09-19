@@ -4,41 +4,37 @@ html{scroll-behavior: smooth;}
     padding: 0;
     font-family: sans-serif;
 }
-
 .navbar{
     background: black;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     position: relative;
 }
 .navbar .logo{
     position:absolute;
     
-    height: fit-content;
-    width:250px;
+    height: 100%;
+    width:fit-content;
 }
 .menu{
     position: absolute;
     right: 0%;
-    top:3.5vh;
+    top:50%;
     margin-right: 20px;
-    color: chartreuse;
-    transform: translateY(-0%);
-    width: 20px;
-    height: 10vw;
-
+    transform: translateY(-50%);
+    width: 3vh;
+    height: 9vh;
 }
 .menu #dot{
-    margin: .5vh;
+    margin:0.7vh;
     background: white;
    float: right;
-    width: 1.5vh;
-    height: 1.5vh;
+    width: 1vh;
+    height: 1vh;
     border:1px solid white;
     border-radius: 50%;
-
-
 }
+
 #menubar{
     position: absolute;
     top:0%;
@@ -64,7 +60,7 @@ html{scroll-behavior: smooth;}
 }
 .banner{
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/gift_bgpic.jpg);
     background-size: cover;
     background-position: center;
@@ -93,7 +89,7 @@ html{scroll-behavior: smooth;}
     font-family: 'Pacifico', cursive;
 }
 .content #highlight{
-    color: red;
+    color: orange;
     font-weight: 900;
     font-family:'Pacifico', cursive; ;
 }
@@ -105,6 +101,7 @@ html{scroll-behavior: smooth;}
     position: absolute;
     top: 100%;
     right: 0%;
+    font-size: 2vh;
     transform: translateY(-100%);
     margin-right: 10px;
     padding-bottom: 4px;
@@ -124,7 +121,7 @@ html{scroll-behavior: smooth;}
 .insta .insta1{
     float: right;
     color: white;
-    font-size: 2.5vh;
+    font-size: 2vh;
     margin-left: 4px;
 }
 .insta .insta1 .insta11{
