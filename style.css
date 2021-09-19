@@ -8,32 +8,32 @@ html{scroll-behavior: smooth;}
 .navbar{
     background: black;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     position: relative;
 }
 .navbar .logo{
     position:absolute;
     
-    height: fit-content;
-    width:250px;
+    height: 100%;
+    width:fit-content;
 }
 .menu{
     position: absolute;
     right: 0%;
-    top:3.5vh;
+    top:50%;
     margin-right: 20px;
     color: chartreuse;
-    transform: translateY(-0%);
+    transform: translateY(-50%);
     width: 20px;
-    height: 10vw;
+    height:90% ;
 
 }
 .menu #dot{
-    margin: .5vh;
+    margin: .3vh;
     background: white;
    float: right;
-    width: 1.5vh;
-    height: 1.5vh;
+    width: 1vh;
+    height: 1vh;
     border:1px solid white;
     border-radius: 50%;
 
