@@ -134,8 +134,11 @@
           else if(n==2){
               v=window.innerHeight+window.innerWidth*1.5;
           }
-          else{
+          else if(n==3){
             v=window.innerHeight+window.innerWidth*2.5;
+          }
+          else{
+            v=window.innerHeight+window.innerWidth*3.2;
           }
             scrollTo(0,v);
             document.getElementById("menubar").style.display = "none";
@@ -152,16 +155,16 @@
         }
         else if(x==1){
            
-            elmnt.style.color="blue";
+            elmnt.style.color="pink";
             x=2;
         }
         else if(x==2){
-            elmnt.style.color="green";
+            elmnt.style.color="orange";
             x=3;
         }
         else if(x==3){
            
-            elmnt.style.color="red";
+            elmnt.style.color="skyblue";
             x=0;
         }
         setTimeout(colorTransition,1250);
